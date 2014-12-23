@@ -1,0 +1,217 @@
+/* 首頁 main.php 專用 */
+
+#linklist #menu2 {
+	top:309px;
+}
+#main1 {
+	margin-top:275px;
+	_margin-top:40px;
+}
+
+#linklist #menu1 {
+	top:362px;
+	left:0px;
+}
+#menu_service {
+	top:626px;
+}
+
+#content  ul li {	
+	list-style  : none;
+}
+
+#extralist10 {
+	bottom:156px;
+	position:absolute;
+	right:8px;
+}
+
+/* 新聞區塊 */
+#boxLeft{    clear : both;
+    width :544px;
+    float:left;
+
+	}
+#boxRight {
+    width :215px;
+    float:right;
+}
+
+/* 客製化樣式:新增 */
+
+#boxA3{
+    border: 1px solid hsla(100, 40%, 50%, 0.8);
+    overflow: hidden;
+}
+
+#boxB3{
+    border: 1px solid hsla(100, 40%, 50%, 0.8);
+    overflow: hidden;
+}
+
+#boxC3{
+    border: 1px solid hsla(100, 40%, 50%, 0.8);
+    overflow: hidden;
+}
+/*-----*/
+
+#boxA {	
+	background:url(cssimg/box_bg.jpg) no-repeat 0 bottom transparent;
+	margin-bottom:10px;
+	padding-bottom: 6px;
+	position: relative;
+ }
+#boxA h2{	
+	background:url("cssimg/h2.jpg") no-repeat scroll 0 50% transparent;	
+	padding:0 0 0 38px;
+	}
+	
+#boxA ul{
+	margin-left:35px;
+	}
+#boxA li {
+	clear:both;
+	margin-bottom:10px;
+	width:534px;
+	color:#969696;
+}
+#boxA li a{
+	display:block;
+	float:right;
+	*margin-top:-16px;
+	width:445px;
+	color:#000000;
+}
+	
+#boxB { 
+	background:url(cssimg/box_bg.jpg) no-repeat 0 bottom transparent;
+	margin-bottom:10px;
+	padding-bottom: 6px;
+	position: relative;
+}
+#boxB h2 {
+	color:#114f61;
+	background:url("cssimg/h2.jpg") no-repeat scroll 0 50% transparent;	 
+	padding:0 0 0 38px;
+	}
+	
+#boxB ul{
+	margin-left:35px;
+	}	
+	
+#boxB li {
+	color:#969696;
+	clear:both;
+	margin-bottom:10px;
+	width:534px;
+}	
+
+#boxB li a{
+	display:block;
+	float:right;
+	*margin-top:-16px;
+	width:445px;
+	color:#000000;
+}
+
+#boxC h2 {
+	background:url("cssimg/h2.jpg") no-repeat scroll 0 50% transparent;	 
+	padding:0 0 0 38px;
+	color:#ec6941;
+	}
+		
+#boxC img{ 
+	 border:2px solid #c8c8c8;
+}
+
+#boxC a{
+	margin-left:10px;
+	}
+	
+#boxC .note a img{ 
+	display:none;
+}
+#boxD img{ 
+
+	 border:2px solid #c8c8c8;
+	 margin-bottom:16px;
+}	
+
+#boxE img{padding:3px;border:1px solid #eee;background:#fff;margin:2px;}
+#boxE   a:hover img{background:#FF7619;border:1px solid #F76909;}
+#boxE .note img{border:0px;}
+/* 新聞區塊有圖片浮動+MORE浮動+資料浮動+三層背景 */
+#boxX { 
+    width:541px;
+	padding:0 0 0 0;
+    margin:0 0 15px 0;
+	background:url(cssimg/boxa3_bg.jpg) top left repeat-y;
+}
+#boxX2:after {
+    content: "."; 
+    display: block;
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}	
+#boxX h2 {background:none;border:0;padding:7px 0 0 50px;margin:0 0 0 0px;color:#fff;font-size:1.2em;}
+.data{float:right;width:260px;margin:40px 0px 0 0;padding:0 40px 0 0;}
+#imgX {float:left;width:173px;margin:50px 0 0 10px;}
+#boxX ul {padding:0;margin:0;}
+#boxX li a:link{color:#666666;}
+#boxX li a:visited{color:#666666;}
+#boxX li a:hover{color:#ef7d04;}
+#boxX2 {background:url(cssimg/boxa2_bg.jpg) bottom left no-repeat;min-height:250px;}
+#boxX3 {background:url(cssimg/boxa_bg.jpg) top left no-repeat;padding:0px 0 60px 0;}
+
+.note{
+	clear: both;
+	position: absolute;
+	right: 0;
+	top: 1px;
+}
+.note a:link{color:#500000;}
+.note a:visited{color:#500000;}
+/* 新聞日期 */
+h3 { 
+
+}
+/* 新聞標題 */
+h4 {
+color: #000000; padding-left: 100px; padding: 0px; margin : 0px;
+font-weight:bold; font-size:16px; padding-left : 15px;
+}
+
+.pic  {
+	float : left;
+	border : 1px solid #ccc;
+	padding : 3px;
+	margin : 3px;
+    
+}	
+
+/*上方背景*/
+#main {	
+	position:relative;	
+	min-height :400px;
+	height:auto !important;
+    height:400px;	
+}
+#main:after {
+    content: "."; 
+    display: block;
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}	
+
+
+
+
+
+
+
+
+
+
+

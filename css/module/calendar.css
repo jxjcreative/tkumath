@@ -1,0 +1,537 @@
+#page_calendar p{clear:both}
+
+#top_scroll .col_textarea textarea{
+	margin:0;border:1px solid #ccc;background:#FFF;
+	
+}
+#top_scroll .col_textarea li{
+	display:inline;float:left;
+}
+
+#top_scroll ul li{
+	list-style:none;list-style-image:none;
+}
+#top_scroll .col_textarea ul{margin:0;padding:0;}
+
+#top_scroll .col_textarea .col_r{
+	float:left;
+	margin:0;
+	padding:2px 0 2px 0;
+}
+
+/*newthing*/
+#page_calendar #calendar_form_add p{clear:both;}
+
+#page_calendar #calendar_form_add .col_textarea textarea{
+	margin:0;border:1px solid #ccc;background:#FFF;
+	
+}
+#page_calendar #calendar_form_add .col_textarea li{
+	display:inline;float:left;
+}
+
+#page_calendar #calendar_form_add #content ul li{
+	list-style:none;list-style-image:none;
+}
+#page_calendar #calendar_form_add .col_textarea .col_r{
+	float:left;
+	margin:0;
+	padding:2px 0 2px 0;
+}
+
+#calendar_form_add ul{padding:0;margin:0;}
+/*end*/
+
+#calendar_large {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+position:relative;
+	font: normal 12px/20px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #616B76;
+	text-align: center;
+	background-color: #fff;
+	letter-spacing:0;
+}
+
+#calendar_large  a {
+	color: #DF9496;
+}
+
+#calendar_large  .nav, #calendar_large  .nav a {
+	font: normal 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #44667c;	
+	text-align: center;
+	text-decoration: none;
+}	
+
+
+#calendar_large  caption {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #d3e6ef;
+	color: #44667c;	 
+	font: bold 18px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+#calendar_large  th {
+	font: bold 11px/20px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #345366;
+	background: #8bacc1;
+	border-bottom: 1px solid #c2d3de;
+	border-top: 1px solid #A2ADBC;
+	font-weight: normal;
+}
+
+#calendar_large .today, #calendar_large  td.today a, #calendar_large  td.today a:link, #calendar_large  td.today a:visited {
+	color: #ea4b05;
+	background: #e4e4e4;
+}
+#calendar_large  td {
+    height:100px;
+	width:14%;
+	border-bottom: 1px solid #c2d3de;
+	border-right: 1px solid #c2d3de;
+	vertical-align : top;
+	/*background: url(../cssimg/bg_calendar.gif) no-repeat right bottom;*/
+}
+
+#calendar_large  td a {
+	text-decoration: none;
+	float:left;	
+	margin : 0;
+}
+
+#calendar_large td a:link, #calendar_large  td a:visited {	
+	color: #608194;
+	/*background: url(../cssimg/bg_calendar.gif) no-repeat;*/
+}
+
+#calendar_large td a:hover,#calendar_large  td a:active {
+	color: #6aa3ae;
+	/*background: url(../cssimg/bg_calendar.gif) no-repeat right top;*/
+}
+
+#calendar_add ,#calendar_edit {
+	padding : 10px 30px 0 30px;
+	border : 1px solid #ccc;
+	background:  #FEF9E9;
+	margin : 20px;
+
+}
+
+.onstate-RemindEventOptin { display: block; padding : 0 ; }
+.offstate-RemindEventOptin { display: none; }
+
+#calendar_day_front caption { 
+	text-align : left;
+	font-weight : bold;
+	font-size : 1.2em;
+	padding : 0.1em 0.1em 0.1em 1.5em;
+	background : url('../cssimg/caption.gif') no-repeat 0 50%;
+	border-bottom : 1px solid #ddd;
+	color:#ff9907;
+}
+
+#calendar_day_front th {
+      padding:6px 15px; 
+      vertical-align:top;
+      color:#81ce25;
+	  width : 110px;
+	  text-align : right;
+}
+#calendar_day_front li.ell {
+    overflow: hidden;
+	width:100%;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+#calendar_day_front li.cli{
+    overflow: hidden;
+	width:100%;
+	white-space: nowrap;
+	text-overflow: clip;
+}
+#calendar_day_front ul.blk {
+		/* position:relative; */
+		z-index:3;
+		displaY:block;
+		width:100%;
+		padding:0;
+		margin:0;
+	}
+
+#calendar_day ul {
+	margin : 0;
+	padding : 0;
+	margin-left : 20px;
+}
+
+#calendar_day td {
+	border-bottom : 1px solid #ddd;
+}
+
+/* small */
+
+#calendar {
+	width: 165px;
+	padding: 0;
+	margin: 0;
+	font: normal 12px/20px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #616B76;
+	text-align: center;
+	background-color:none;
+}
+
+#calendar  a {
+	color: #DF9496;
+}
+
+#calendar  .nav, #calendar  .nav a {
+	font: normal 16px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #333;	
+	text-align: center;
+	text-decoration: none;
+}	
+
+
+#calendar  caption {
+	margin: 0;
+	padding: 0;
+	width: 165px;
+	background: #d3e6ef;
+	color: #345366;	 
+	font: 12px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+#calendar  th {
+	font: bold 11px/20px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	color: #44667c;
+	background: #8bacc1;
+	border-bottom: 1px solid #ccc;
+}
+
+#calendar .today, #calendar  td.today a, #calendar  td.today a:link, #calendar  td.today a:visited {
+	color: #fff;
+	font-weight: bold;
+	background: #8bacc1;
+}
+
+#calendar  td {
+	border-bottom: 1px solid #c2d3de;
+	width: 20px;
+	height: 18px;
+	text-align: center;
+	background:#edf2f6;
+	color:#44667c;
+	/*background: url(../cssimg/bg_calendar.gif) no-repeat right bottom;*/
+}
+
+#calendar  td a {
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+}
+
+#calendar td a:link, #calendar  td a:visited {
+	color: #e14530;
+	font-weight: normal;
+	background: #fff;
+	/*background: url(../cssimg/bg_calendar.gif) #eee no-repeat;*/
+}
+
+#calendar td a:hover,#calendar  td a:active {
+	color: #fff;
+	font-weight: normal;
+	background: #e14530;
+	/*background: url(../cssimg/bg_calendar.gif) #eee no-repeat right top;*/
+}
+
+#calendar .satday {
+}
+
+#calendar .sunday {
+}
+
+div.admin_list {
+	margin-top: 30px;
+	padding: 10px;
+	clear:both;
+}
+
+span.big {
+	font-size: 18px;
+}
+
+div.color_pic {
+	width: 21px;
+	height: 21px;
+	white-space: nowrap;
+/*	float: left*/
+}
+
+input.today {
+	cursor: pointer;
+}
+
+p.datetime {
+}
+
+/* cal_list */
+
+	.cal_list {
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+	
+	.cal_list ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+	
+	.cal_list li {
+		display: block;
+		clear: both;
+		padding:0;
+		margin:0;
+	}
+	
+	.cal_list a {
+		white-space: nowrap;
+	}
+	
+	.cal_list p,.cal_list p a {
+		color: #666;
+	}
+	
+	.cal_list p a:hover {
+		color: #000;
+	}
+
+	.cal_list p span {
+		padding-right: 1em;
+	}
+	#content .cal_list li{
+	padding: 0;
+	margin:0 0 1px 0;
+	list-style: none;
+	list-style-image:none;
+	list-style-type:none;
+	}
+	
+		
+	#content .cal_list li.title {
+		width: 100%;
+		text-align: right;
+		float: right;
+		background: #efefef;
+	}
+	#content .cal_list li.title span a {
+		margin:5px 0 0 5px;
+		float:left;
+	}
+	#content .cal_list li.title a{
+		float:right;
+		margin:0 5px 0 0;
+	}
+	.cal_list li.today {
+		font-weight: bold;
+		background-color: #D2D2D2;
+	}
+
+	* html .cal_list{
+		font-size: 95%;
+		width:100%;
+		line-height:1.5em;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display:block;
+		white-space: nowrap;
+		list-style:none;list-style-image:none;
+	}
+	*+html .cal_list{
+		font-size: 95%;
+		width:100%;
+		line-height:1.5em;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display:block;
+		white-space: nowrap;
+		list-style:none;list-style-image:none;
+	}
+html>/**/body .cal_list li.overflow {
+		font-size: 95%;
+		width:100%;
+		line-height:1.5em;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		display:block;
+		white-space: nowrap;
+		list-style:none;list-style-image:none;
+	}
+	.cal_list li a{
+		z-index:20;
+		color:#fff;
+	}
+	.cal_list li.empty a{
+		position:absolute;
+		left:0;top:0;
+		width: 102px;
+		height:100px;
+		z-index:-1;
+		/*border:1px solid red;*/
+		}
+		.cal_list li a{
+		z-index:3;}
+		
+	
+	td ul {
+		/*position:relative;*/
+		z-index:3;
+		displaY:block;
+		width:102px;
+		padding:0;
+		margin:0;
+	}
+	td li a{z-index:3;}
+	.col_radio{clear:both;}
+	.combine{width:20px;height:10px;margin:0 1px;}
+	
+	
+/*new_time*/
+
+	#datetime_comb1{position:relative;}
+	#datetime_comb2{position:relative;}
+	#Time{
+		position:absolute;left:310px;margin:0;
+		background:url(../cssimg/close_time.gif) left top no-repeat #fff;
+		padding:0 0 0 30px;
+	}
+	#end_time{
+		position:absolute;left:310px;margin:0;
+		background:url(../cssimg/close_time.gif) left top no-repeat #fff;
+		padding:0 0 0 30px;
+	}
+	input{
+		font-family:arial;background:#fff;border:1px solid #ddd;
+	}
+	.col_r2{width:500px;}
+	
+
+	.col{
+	float:left;
+	clear:both;
+	width:130px;
+	margin:0 10px 0px 0;
+	padding:1px 0 1px 0;
+	}
+	.col_no{
+	float:left;
+
+	width:130px;
+	margin:0 10px 5px 0;
+	padding:2px 0 2px 0;
+
+	}
+	.col_r{
+	float:left;
+	display:inline;
+	padding-bottom:3px;
+	}
+	.col_r33{
+	margin-top:-15px;
+	width:160px;
+	float:left;
+	display:inline;
+
+	}
+	.col_r3{
+	float:left;
+	display:inline;
+	padding-bottom:3px;
+	width:160px;
+
+	}
+	.col_r .col{
+	width:50px;
+	margin-left:10px;
+	margin-top:3px;
+	}
+
+	.col_radio .col_r{width:520px;float:left;display:inline;}
+
+	td .cal_daily {
+	width:auto;
+	}
+	.combine label{white-space: nowrap;}
+	.combine{display:inline;float:left;width:auto;margin:10px 0;}
+	.col_radio .combine{width:21px;margin:0 1px 10px 0;height:30px;}
+
+	.add_event a{
+	width:9px;height:9px;
+	background:url(../../images/new_calendar.jpg) left top no-repeat;
+	
+	}
+		/*.cal_list li.more a {
+		color:#336699;
+	width:100px;
+	}
+	.cal_list li.more {
+		text-align: center;padding:0;
+	}*/
+	
+
+	.div_1_no_position {background-color:#ffffff;}		
+	.div_1_position {position:relative;height:auto;}	
+	.black_hide {display:none;}
+	.black_show {
+	background: #E8E8E8;
+	width: 101px;height: auto;
+	position: absolute; top: 18px; left:0px;
+	border-width: 1.5px;
+	border-color: #000099;
+	border-style: dashed; 
+	}	
+	.closeImg {
+	
+	background:url(../images/new_calendar.jpg) right top no-repeat; 
+	}
+	.closeTxt {
+	text-align: right;padding:0;
+	}
+	.closeTxt span{
+	font-size: 10px;
+	cursor: pointer;
+	}
+	/*.cal_list li.more a {
+		
+		width:100px;
+		
+	}*/
+	.more {
+		text-align: center;padding:0;
+	}
+	.more span{
+		font-size: 10px;
+		color:blue;
+		cursor: pointer;
+	}
+	/*
+	.empty1 a{
+		padding-right:95%; 
+		background-color: #ffffff;
+	}
+	
+	*/
+.black_show .cal_list{
+	z-index:300;background:#fff;
+	margin:-1px 0 0px -4px;padding:3px 1px 5px 1px;
+	width:103px;border:1px solid #eee;
+	position:relative !important;
+}
+.black_show{z-index:300;}
